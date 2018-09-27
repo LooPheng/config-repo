@@ -8,10 +8,10 @@ spring:
     username: root
     password: 123456
     type: com.alibaba.druid.pool.DruidDataSource
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
+# eureka:
+#   client:
+#     service-url:
+#       defaultZone: http://localhost:8761/eureka/
 server:
   port: 8062
 mybatis:
